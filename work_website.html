@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calpeters Clerkson Ojiambo | ICT Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-laptop-code text-indigo-600 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-indigo-600">Calpeters Ojiambo</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#home" class="text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 border-indigo-500 text-sm font-medium">Home</a>
+                    <a href="#services" class="text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">Services</a>
+                    <a href="#about" class="text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">About</a>
+                    <a href="#projects" class="text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">Projects</a>
+                    <a href="#contact" class="text-gray-500 hover:text-gray-700 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium">Contact</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" class="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-12 md:pt-32 md:pb-20 gradient-bg text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2 lg:w-2/3 mb-12 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">Hi, I'm Calpeters Clerkson Ojiambo</h1>
+                    <p class="text-xl md:text-2xl text-indigo-100 mb-8">ICT Student & Software Solutions Provider</p>
+                    <p class="text-lg text-indigo-100 mb-8 max-w-lg">I specialize in creating efficient systems, providing software updates, and seamless installations to enhance your digital experience.</p>
+                    <div class="flex flex-wrap">
+                        <a href="#contact" class="bg-white text-indigo-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold text-lg mr-4 mb-4 transition duration-300">Get In Touch</a>
+                        <a href="#projects" class="border-2 border-white text-white hover:bg-white hover:text-indigo-600 px-8 py-3 rounded-lg font-semibold text-lg mb-4 transition duration-300">View My Work</a>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 flex justify-center">
+                    <div class="relative">
+                        <div class="w-64 h-64 bg-indigo-400 rounded-full opacity-20 absolute -top-6 -left-6"></div>
+                        <div class="w-64 h-64 bg-indigo-500 rounded-full opacity-20 absolute -bottom-6 -right-6"></div>
+                        <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="ICT Professional" class="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-white shadow-xl floating">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">My Services</h2>
+                <div class="w-20 h-1 bg-indigo-500 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Comprehensive ICT solutions tailored to meet your specific needs</p>
+            </div>
+            
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-xl p-8 h-full service-card transition duration-300">
+                        <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                            <i class="fas fa-laptop text-indigo-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">System Development</h3>
+                        <p class="text-gray-600">Custom system solutions designed to streamline your operations and improve efficiency. From concept to deployment, I create robust systems tailored to your requirements.</p>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-xl p-8 h-full service-card transition duration-300">
+                        <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                            <i class="fas fa-sync-alt text-indigo-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Software Updates</h3>
+                        <p class="text-gray-600">Keep your software current with the latest features and security patches. I ensure smooth transitions during updates with minimal downtime for your business.</p>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-xl p-8 h-full service-card transition duration-300">
+                        <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                            <i class="fas fa-download text-indigo-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Software Installation</h3>
+                        <p class="text-gray-600">Professional installation of various software packages with proper configuration to ensure optimal performance on your systems.</p>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-xl p-8 h-full service-card transition duration-300">
+                        <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
+                            <i class="fas fa-headset text-indigo-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Technical Support</h3>
+                        <p class="text-gray-600">Reliable technical and also advice assistance on troubleshooting, maintenance, and optimization of your ICT infrastructure or system software.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full lg:w-1/2 mb-12 lg:mb-0">
+                    <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="About Calpeters" class="w-full rounded-xl shadow-xl">
+                </div>
+                <div class="w-full lg:w-1/2 lg:pl-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">About Me</h2>
+                    <div class="w-20 h-1 bg-indigo-500 mb-6"></div>
+                    <p class="text-lg text-gray-600 mb-8">
+                        I'm Calpeters Clerkson Ojiambo, a passionate ICT student dedicated to providing top-notch software solutions and technical services. If you'd like to know more about my background, experience, or journey, just click the button below—I'd love to share more with you!
+                    </p>
+                    <div class="flex flex-wrap -mx-2">
+                        <div class="w-full sm:w-1/2 px-2 mb-4">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
+                                    <i class="fas fa-graduation-cap text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Education</h4>
+                                    <p class="text-gray-600">ICT Student</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-1/2 px-2 mb-4">
+                            <div class="flex items-center">
+                                <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center mr-3">
+                                    <i class="fas fa-briefcase text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Experience</h4>
+                                    <p class="text-gray-600">3+ Years</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="index.html" target="_blank" rel="noopener" class="mt-6 inline-block bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold text-lg transition duration-300">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">My Projects</h2>
+                <div class="w-20 h-1 bg-indigo-500 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">A showcase of my recent work and accomplishments</p>
+            </div>
+            
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md h-full">
+                        <div class="h-48 bg-indigo-100 flex items-center justify-center">
+                            <i class="fas fa-project-diagram text-indigo-600 text-5xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Inventory Management System</h3>
+                            <p class="text-gray-600 mb-4">A comprehensive system for tracking inventory levels, orders, sales and deliveries.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">PHP</span>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">MySQL</span>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md h-full">
+                        <div class="h-48 bg-indigo-100 flex items-center justify-center">
+                            <i class="fas fa-user-graduate text-indigo-600 text-5xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Student Portal</h3>
+                            <p class="text-gray-600 mb-4">An online platform for students to access course materials, submit assignments, and check grades.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">Python</span>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">Django</span>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-gray-50 rounded-xl overflow-hidden shadow-md h-full">
+                        <div class="h-48 bg-indigo-100 flex items-center justify-center">
+                            <i class="fas fa-store text-indigo-600 text-5xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">E-commerce Platform</h3>
+                            <p class="text-gray-600 mb-4">A complete online shopping solution with product catalog, cart functionality, and payment processing.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">React</span>
+                                <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#contact" class="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold text-lg inline-block transition duration-300">Request Custom Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Client Testimonials</h2>
+                <div class="w-20 h-1 bg-indigo-500 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">What people say about my work</p>
+            </div>
+            
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+                    <div class="bg-white p-8 rounded-xl shadow-md h-full">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-user text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Sarah Atieno</h4>
+                                <p class="text-gray-600 text-sm">Personal Website</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">"Calpeters created for me a nice personal website which I fall in love with it the first time i saw it. Excelent Work"</p>
+                        <div class="flex mt-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get In Touch</h2>
+                <div class="w-20 h-1 bg-indigo-500 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Ready to discuss your project? Reach out and let's create something amazing together.</p>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">I am available for freelance work. Connect with me via the form below or through my social media channels.</p>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Sorry the fields for submitting your queries is currently not working I willfix it as soon as possible.</p>
+            </div>
+            
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
+                    <form class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="John Doe">
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="john@example.com">
+                        </div>
+                        <div class="mb-6">
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Project Inquiry">
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Your Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-300">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="w-full lg:w-1/2 px-4">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md h-full">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                        
+                        <div class="flex items-start mb-6">
+                            <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-envelope text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Email</h4>
+                                <p class="text-gray-600">calpetersclerkson@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-6">
+                            <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-phone-alt text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Phone</h4>
+                                <p class="text-gray-600">+254 719 233 015</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-4">
+                                <i class="fas fa-whatsapp-alt text-purple-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Whatsapp Phone Number</h4>
+                                <a href="tel:+254719233015" class="text-gray-600 hover:text-blue-500">+254 770 413 216</a>
+                            </div>
+                            
+                        </div>
+
+                        <div class="flex items-start mb-6">
+                            <div class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Location</h4>
+                                <p class="text-gray-600">Kakamega, Kenya</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold text-gray-800 mb-4">Connect With Me</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 hover:bg-indigo-600 hover:text-white transition duration-300">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 hover:bg-indigo-600 hover:text-white transition duration-300">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 hover:bg-indigo-600 hover:text-white transition duration-300">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center text-indigo-600 hover:bg-indigo-600 hover:text-white transition duration-300">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap -mx-4">
+                <div class="w-full lg:w-1/3 px-4 mb-8 lg:mb-0">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-laptop-code text-indigo-400 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-indigo-400">Calpeters Ojiambo</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">Providing innovative ICT solutions to help businesses and individuals thrive in the digital world.</p>
+                    <p class="text-gray-400">© <span id="currentYear"></span> Calpeters Clerkson Ojiambo. All rights reserved.</p>
+                
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8 md:mb-0">
+                    <h3 class="text-lg font-bold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-indigo-400 transition duration-300">Home</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-indigo-400 transition duration-300">Services</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-indigo-400 transition duration-300">About</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-indigo-400 transition duration-300">Projects</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-indigo-400 transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+                    <h3 class="text-lg font-bold text-white mb-4">Newsletter</h3>
+                    <p class="text-gray-400 mb-4">Subscribe to my newsletter for the latest updates and tech insights.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email" class="px-4 py-2 w-full rounded-l-lg focus:outline-none text-gray-800">
+                        <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 px-4 py-2 rounded-r-lg transition duration-300">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in the footer
+        // This script sets the current year in the footer dynamically
+         document.getElementById('currentYear').textContent = new Date().getFullYear();
+        // Simple form submission handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu toggle functionality
+        const mobileMenuButton = document.querySelector('.md\\:hidden button');
+        mobileMenuButton.addEventListener('click', function() {
+            const menu = document.querySelector('.hidden.md\\:flex');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+            menu.classList.toggle('flex-col');
+            menu.classList.toggle('absolute');
+            menu.classList.toggle('top-16');
+            menu.classList.toggle('left-0');
+            menu.classList.toggle('right-0');
+            menu.classList.toggle('bg-white');
+            menu.classList.toggle('shadow-md');
+            menu.classList.toggle('p-4');
+            menu.classList.toggle('space-y-4');
+        });
+    </script>
+</body>
+</html>
