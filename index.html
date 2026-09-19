@@ -13,26 +13,27 @@
     <link rel="manifest" href="favicon_io/site.webmanifest">
     <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#020617">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #f8fafc;
+            background-color: #020617;
+            color-scheme: dark;
             scroll-behavior: smooth;
         }
         
         .gradient-text {
-            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            background: linear-gradient(90deg, #60a5fa, #a78bfa);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
         }
         
         .hero-gradient {
-            background: linear-gradient(135deg, #e0f2fe 0%, #fae8ff 100%);
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
         }
         
         .card-hover {
@@ -41,7 +42,7 @@
         
         .card-hover:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
         }
         
         .nav-link {
@@ -79,7 +80,7 @@
         .skill-bar {
             height: 8px;
             border-radius: 4px;
-            background-color: #e2e8f0;
+            background-color: #334155;
             overflow: hidden;
         }
         
@@ -91,9 +92,9 @@
         }
     </style>
 </head>
-<body class="text-gray-800">
+<body class="text-slate-200">
     <!-- Navigation -->
-    <nav class="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+    <nav class="fixed w-full bg-slate-950/80 backdrop-blur-md shadow-sm z-50">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="flex items-center space-x-2">
                 <img src="Clerk_logo2.png" alt="Logo" class="h-8 w-8 object-contain" />
@@ -106,7 +107,7 @@
                 <a href="#projects" class="nav-link font-medium">Projects</a>
                 <a href="#contact" class="nav-link font-medium">Contact</a>
             </div>
-            <button class="md:hidden text-gray-600">
+            <button class="md:hidden text-slate-400">
                 <i class="fas fa-bars text-2xl"></i>
             </button>
         </div>
@@ -119,17 +120,17 @@
                 <h1 class="text-4xl md:text-6xl font-bold mb-6">
                     Hi, I'm <span class="gradient-text">Calpeters Clerkson</span>
                 </h1>
-                <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-gray-700">
+                <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-slate-200">
                     Creative Developer & Designer
                 </h2>
-                <p class="text-lg text-gray-600 mb-8 max-w-lg">
+                <p class="text-lg text-slate-400 mb-8 max-w-lg">
                     I build beautiful, functional digital experiences that make an impact. Let's create something amazing together.
                 </p>
                 <div class="flex space-x-4">
                     <a href="#contact" class="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium rounded-full hover:shadow-lg transition-all">
                         Get In Touch
                     </a>
-                    <a href="#projects" class="px-8 py-3 border-2 border-blue-500 text-blue-500 font-medium rounded-full hover:bg-blue-50 transition-all">
+                    <a href="#projects" class="px-8 py-3 border-2 border-blue-500 text-blue-400 font-medium rounded-full hover:bg-blue-500/10 transition-all">
                         View Work
                     </a>
                 </div>
@@ -140,14 +141,14 @@
                     <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full opacity-20 blur-xl"></div>
                     <img src="CLERKPROFILE.JPG" 
                          alt="Profile" 
-                         class="relative w-full h-full object-cover rounded-full border-4 border-white shadow-lg floating">
+                         class="relative w-full h-full object-cover rounded-full border-4 border-slate-700 shadow-lg floating">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="py-20 bg-white">
+    <section id="about" class="py-20 bg-slate-950">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">About <span class="gradient-text">Me</span></h2>
@@ -160,52 +161,52 @@
                         <div class="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-2xl opacity-20 blur-xl"></div>
                         <img src="CLERKPROFILE.JPG"
                              alt="About" 
-                             class="relative w-full h-full object-cover rounded-2xl border-4 border-white shadow-lg">
+                             class="relative w-full h-full object-cover rounded-2xl border-4 border-slate-700 shadow-lg">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12">
                     <h3 class="text-2xl font-bold mb-4">Who am I?</h3>
-                    <p class="text-gray-600 mb-6">
+                    <p class="text-slate-400 mb-6">
                         I'm a passionate full-stack developer with many months of experience creating digital products that users love. My journey in tech started when I built my first website at 15, and I've been hooked ever since.
                     </p>
-                    <p class="text-gray-600 mb-6">
+                    <p class="text-slate-400 mb-6">
                         I specialize in HTML and CSS codes and Javascript, but I'm also comfortable working across the entire stack. What excites me most is solving complex problems with elegant, user-friendly solutions.
                     </p>
                     <div class="grid grid-cols-2 gap-4 mb-8">
                         <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
-                                <i class="fas fa-calendar-alt text-blue-500"></i>
+                            <div class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-calendar-alt text-blue-400"></i>
                             </div>
                             <div>
                                 <p class="font-semibold">Age</p>
-                                <p class="text-gray-600">21</p>
+                                <p class="text-slate-400">21</p>
                             </div>
                         </div>
                         <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-4">
-                                <i class="fas fa-map-marker-alt text-purple-500"></i>
+                            <div class="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-purple-400"></i>
                             </div>
                             <div>
                                 <p class="font-semibold">Location</p>
-                                <p class="text-gray-600">Kakamega, Kenya</p>
+                                <p class="text-slate-400">Kakamega, Kenya</p>
                             </div>
                         </div>
                         <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
-                                <i class="fas fa-briefcase text-blue-500"></i>
+                            <div class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-briefcase text-blue-400"></i>
                             </div>
                             <div>
                                 <p class="font-semibold">Experience</p>
-                                <p class="text-gray-600">Practical Experience</p>
+                                <p class="text-slate-400">Practical Experience</p>
                             </div>
                         </div>
                         <div class="flex items-center">
-                            <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-4">
-                                <i class="fas fa-graduation-cap text-purple-500"></i>
+                            <div class="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-graduation-cap text-purple-400"></i>
                             </div>
                             <div>
                                 <p class="font-semibold">Education</p>
-                                <p class="text-gray-600">Diploma in Information Communication Technology</p>
+                                <p class="text-slate-400">Diploma in Information Communication Technology</p>
                             </div>
                         </div>
                     </div>
@@ -213,7 +214,7 @@
                     <a href="work_website.html" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium rounded-full hover:shadow-lg transition-all">
                         Know about My work  <i class="fas fa-arrow-right ml-2"></i>
                     </a>
-                    <a href="#" class="inline-flex items-center px-6 py-3 border border-blue-500 text-blue-500 font-medium rounded-full hover:bg-blue-50 transition-all">
+                    <a href="#" class="inline-flex items-center px-6 py-3 border border-blue-500 text-blue-400 font-medium rounded-full hover:bg-blue-500/10 transition-all">
                         Download CV <i class="fas fa-download ml-2"></i>
                     </a>
                 </div>
@@ -222,7 +223,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-20 bg-gray-50">
+    <section id="skills" class="py-20 bg-slate-900">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="gradient-text">Skills</span></h2>
@@ -236,14 +237,14 @@
                         <div>
                             <div class="flex justify-between mb-2">
                                 <span class="font-medium">HTML</span>
-                                <span class="text-gray-500">97%</span>
+                                <span class="text-slate-400">97%</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 97%"></div>
                             </div>
                             <div class="flex justify-between mb-2">
                                 <span class="font-medium">CSS</span>
-                                <span class="text-gray-500">95%</span>
+                                <span class="text-slate-400">95%</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 95%"></div>
@@ -252,7 +253,7 @@
                         <div>
                             <div class="flex justify-between mb-2">
                                 <span class="font-medium">JavaScript</span>
-                                <span class="text-gray-500">90%</span>
+                                <span class="text-slate-400">90%</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 90%"></div>
@@ -268,7 +269,7 @@
                         <div>
                             <div class="flex justify-between mb-2">
                                 <span class="font-medium">Communication</span>
-                                <span class="text-gray-500">90%</span>
+                                <span class="text-slate-400">90%</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 90%"></div>
@@ -277,7 +278,7 @@
                         <div>
                             <div class="flex justify-between mb-2">
                                 <span class="font-medium">Teamwork</span>
-                                <span class="text-gray-500">85%</span>
+                                <span class="text-slate-400">85%</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 85%"></div>
@@ -286,7 +287,7 @@
                         <div>
                             <div class="flex justify-between mb-2">
                                 <span class="font-medium">Problem Solving</span>
-                                <span class="text-gray-500">95%</span>
+                                <span class="text-slate-400">95%</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 95%"></div>
@@ -295,7 +296,7 @@
                         <div>
                             <div class="flex justify-between mb-2">
                                 <span class="font-medium">Creativity</span>
-                                <span class="text-gray-500">88%</span>
+                                <span class="text-slate-400">88%</span>
                             </div>
                             <div class="skill-bar">
                                 <div class="skill-progress" style="width: 88%"></div>
@@ -308,20 +309,20 @@
             <div class="mt-16">
                 <h3 class="text-xl font-semibold mb-8 text-center">Tools & Technologies</h3>
                 <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-6">
-                    <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm card-hover">
+                    <div class="flex flex-col items-center p-4 bg-slate-800 rounded-lg shadow-sm card-hover border border-slate-700/60">
                         <i class="fab fa-html5 text-4xl text-orange-500 mb-2"></i>
                         <span class="text-sm font-medium">HTML5</span>
                     </div>
-                    <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm card-hover">
-                        <i class="fab fa-css3-alt text-4xl text-blue-500 mb-2"></i>
+                    <div class="flex flex-col items-center p-4 bg-slate-800 rounded-lg shadow-sm card-hover border border-slate-700/60">
+                        <i class="fab fa-css3-alt text-4xl text-blue-400 mb-2"></i>
                         <span class="text-sm font-medium">CSS3</span>
                     </div>
-                    <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm card-hover">
+                    <div class="flex flex-col items-center p-4 bg-slate-800 rounded-lg shadow-sm card-hover border border-slate-700/60">
                         <i class="fab fa-js text-4xl text-yellow-500 mb-2"></i>
                         <span class="text-sm font-medium">JavaScript</span>
                     </div>
                     <!-- C Language (using a custom SVG icon) -->
-                    <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm card-hover">
+                    <div class="flex flex-col items-center p-4 bg-slate-800 rounded-lg shadow-sm card-hover border border-slate-700/60">
                         <span class="mb-2">
                             <svg width="40" height="40" viewBox="0 0 48 48" fill="none">
                                 <circle cx="24" cy="24" r="24" fill="#00599C"/>
@@ -331,7 +332,7 @@
                         <span class="text-sm font-medium">C</span>
                     </div>
                     <!-- C++ Language (using a custom SVG icon) -->
-                    <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm card-hover">
+                    <div class="flex flex-col items-center p-4 bg-slate-800 rounded-lg shadow-sm card-hover border border-slate-700/60">
                         <span class="mb-2">
                             <svg width="40" height="40" viewBox="0 0 48 48" fill="none">
                                 <circle cx="24" cy="24" r="24" fill="#00599C"/>
@@ -342,7 +343,7 @@
                         <span class="text-sm font-medium">C++</span>
                     </div>
                     <!-- Pascal Language (using a custom SVG icon) -->
-                    <div class="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm card-hover">
+                    <div class="flex flex-col items-center p-4 bg-slate-800 rounded-lg shadow-sm card-hover border border-slate-700/60">
                         <span class="mb-2">
                             <svg width="40" height="40" viewBox="0 0 48 48" fill="none">
                                 <circle cx="24" cy="24" r="24" fill="#E3C29B"/>
@@ -358,7 +359,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-white">
+    <section id="projects" class="py-20 bg-slate-950">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="gradient-text">Projects</span></h2>
@@ -367,21 +368,21 @@
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Education System Project -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center">
                         <i class="fas fa-graduation-cap text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Education System</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A comprehensive education management system designed to streamline student enrollment, course management, grading, and communication between teachers and students. The platform provides secure authentication, user-friendly dashboards, and automated reporting to enhance the learning experience for both educators and learners.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
-                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">PHP</span>
-                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">MySQL</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-medium rounded-full">PHP</span>
+                            <span class="px-3 py-1 bg-green-500/20 text-green-300 text-xs font-medium rounded-full">MySQL</span>
                         </div>
                         <a href="#" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Project <i class="fas fa-arrow-right ml-2"></i>
@@ -390,19 +391,19 @@
                 </div>
 
                 <!-- BMI Calculator Project -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
                         <i class="fas fa-calculator text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">BMI Calculator</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A responsive BMI calculator web application that allows users to calculate their Body Mass Index based on their height and weight. The application provides a clean, user-friendly interface with real-time calculations and visual feedback.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
                         </div>
                         <a href="https://whisperpete.github.io/BMI-calc/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Project <i class="fas fa-arrow-right ml-2"></i>
@@ -411,19 +412,19 @@
                 </div>
 
                 <!-- Age Calculator Project-->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-purple-400 to-pink-500 flex items-center justify-center">
                         <i class="fas fa-birthday-cake text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Age Calculator</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A simple and intuitive age calculator web application that allows users to input their date of birth and instantly calculates their current age in years, months, and days. The application features a clean design and responsive layout for optimal user experience across devices.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
                         </div>
                         <a href="https://whisperpete.github.io/chronocount-your-time-teller/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Project <i class="fas fa-arrow-right ml-2"></i>
@@ -441,7 +442,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gray-50">
+    <section id="contact" class="py-20 bg-slate-900">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Get In <span class="gradient-text">Touch</span></h2>
@@ -451,50 +452,50 @@
             <div class="grid md:grid-cols-2 gap-12">
                 <div>
                     <h3 class="text-2xl font-bold mb-6">Let's talk about your project</h3>
-                    <p class="text-gray-600 mb-8">
+                    <p class="text-slate-400 mb-8">
                         Have a project in mind or want to discuss potential opportunities? Feel free to reach out. I'm always open to new challenges and collaborations.
                     </p>
                     
                     <div class="space-y-6">
                         <div class="flex items-start">
-                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
-                                <i class="fas fa-envelope text-blue-500"></i>
+                            <div class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-blue-400"></i>
                             </div>
                             <div>
                                 <h4 class="font-semibold">Email</h4>
-                                <a href="mailto:calpetersclerkson@gmail.com" class="text-gray-600 hover:text-blue-500">calpetersclerkson@gmail.com</a>
+                                <a href="mailto:calpetersclerkson@gmail.com" class="text-slate-400 hover:text-blue-400">calpetersclerkson@gmail.com</a>
                             </div>
                         </div>
                         
                         <div class="flex items-start">
-                            <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-4">
-                                <i class="fas fa-phone-alt text-purple-500"></i>
+                            <div class="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-phone-alt text-purple-400"></i>
                             </div>
                             <div>
                                 <h4 class="font-semibold">Phone</h4>
-                                <a href="tel:+254719233015" class="text-gray-600 hover:text-blue-500">+254 118 672 402</a>
+                                <a href="tel:+254719233015" class="text-slate-400 hover:text-blue-400">+254 118 672 402</a>
                             </div>
                             
                         </div>
 
                         <div class="flex items-start">
-                            <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-4">
-                                <i class="fas fa-whatsapp-alt text-purple-500"></i>
+                            <div class="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-whatsapp-alt text-purple-400"></i>
                             </div>
                             <div>
                                 <h4 class="font-semibold">Whatsapp Phone Number</h4>
-                                <a href="tel:+254719233015" class="text-gray-600 hover:text-blue-500">+254 719 233 015</a>
+                                <a href="tel:+254719233015" class="text-slate-400 hover:text-blue-400">+254 719 233 015</a>
                             </div>
                             
                         </div>
                         
                         <div class="flex items-start">
-                            <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
-                                <i class="fas fa-map-marker-alt text-blue-500"></i>
+                            <div class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-blue-400"></i>
                             </div>
                             <div>
                                 <h4 class="font-semibold">Location</h4>
-                                <p class="text-gray-600">Kakamega, Kenya</p>
+                                <p class="text-slate-400">Kakamega, Kenya</p>
                             </div>
                         </div>
                     </div>
@@ -502,19 +503,19 @@
                     <div class="mt-8">
                         <h4 class="font-semibold mb-4">Follow Me</h4>
                         <div class="flex space-x-4">
-                            <a href="#" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all">
+                            <a href="#" class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 hover:bg-blue-500 hover:text-white transition-all">
                                 <i class="fab fa-twitter"></i>
                             </a>
-                            <a href="https://web.facebook.com/clerk.clerkson.1" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all">
+                            <a href="https://web.facebook.com/clerk.clerkson.1" class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 hover:bg-blue-500 hover:text-white transition-all">
                                 <i class="fab fa-facebook"></i>
                             </a>
-                            <a href="#" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all">
+                            <a href="#" class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 hover:bg-blue-500 hover:text-white transition-all">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a href="https://github.com/Whisperpete/" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all">
+                            <a href="https://github.com/Whisperpete/" class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 hover:bg-blue-500 hover:text-white transition-all">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#" class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-500 hover:bg-blue-500 hover:text-white transition-all">
+                            <a href="#" class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 hover:bg-blue-500 hover:text-white transition-all">
                                 <i class="fab fa-dribbble"></i>
                             </a>
                         </div>
@@ -522,29 +523,29 @@
                 </div>
                 
                 <div>
-                    <form action="https://formsubmit.co/calpetersclerkson@gmail.com" method="POST" class="bg-white p-8 rounded-xl shadow-md">
+                    <form action="https://formsubmit.co/calpetersclerkson@gmail.com" method="POST" class="bg-slate-800 p-8 rounded-xl shadow-md border border-slate-700/60">
                         <!-- Prevent spam -->
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_template" value="table">
 
                         <div class="mb-6">
-                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
-                            <input type="text" name="name" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="John Doe" required>
+                            <label for="name" class="block text-slate-200 font-medium mb-2">Your Name</label>
+                            <input type="text" name="name" id="name" class="w-full px-4 py-3 border border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-900 text-slate-100 placeholder-slate-500" placeholder="John Doe" required>
                         </div>
 
                         <div class="mb-6">
-                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
-                            <input type="email" name="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="john@example.com" required>
+                            <label for="email" class="block text-slate-200 font-medium mb-2">Email Address</label>
+                            <input type="email" name="email" id="email" class="w-full px-4 py-3 border border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-900 text-slate-100 placeholder-slate-500" placeholder="john@example.com" required>
                         </div>
 
                         <div class="mb-6">
-                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
-                            <input type="text" name="subject" id="subject" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Project Inquiry" required>
+                            <label for="subject" class="block text-slate-200 font-medium mb-2">Subject</label>
+                            <input type="text" name="subject" id="subject" class="w-full px-4 py-3 border border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-900 text-slate-100 placeholder-slate-500" placeholder="Project Inquiry" required>
                         </div>
 
                         <div class="mb-6">
-                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
-                            <textarea name="message" id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Tell me about your project..." required></textarea>
+                            <label for="message" class="block text-slate-200 font-medium mb-2">Message</label>
+                            <textarea name="message" id="message" rows="5" class="w-full px-4 py-3 border border-slate-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-slate-900 text-slate-100 placeholder-slate-500" placeholder="Tell me about your project..." required></textarea>
                         </div>
 
                         <button type="submit" class="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-medium rounded-lg hover:shadow-lg transition-all">
@@ -557,7 +558,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
+    <footer class="bg-black text-white py-12">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-6 md:mb-0 flex items-center space-x-3">
@@ -677,7 +678,3 @@
     </script>
 </body>
 </html>
-
-
-
-
