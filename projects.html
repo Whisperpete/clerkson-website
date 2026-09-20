@@ -13,26 +13,27 @@
     <link rel="manifest" href="favicon_io/site.webmanifest">
     <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#020617">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #f8fafc;
+            background-color: #020617;
+            color-scheme: dark;
             scroll-behavior: smooth;
         }
         
         .gradient-text {
-            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            background: linear-gradient(90deg, #60a5fa, #a78bfa);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
         }
         
         .hero-gradient {
-            background: linear-gradient(135deg, #e0f2fe 0%, #fae8ff 100%);
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
         }
         
         .card-hover {
@@ -41,7 +42,7 @@
         
         .card-hover:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
         }
         
         .nav-link {
@@ -79,7 +80,7 @@
         .skill-bar {
             height: 8px;
             border-radius: 4px;
-            background-color: #e2e8f0;
+            background-color: #334155;
             overflow: hidden;
         }
         
@@ -100,9 +101,9 @@
         }
     </style>
 </head>
-<body class="text-gray-800">
+<body class="text-slate-200">
     <!-- Navigation -->
-    <nav class="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+    <nav class="fixed w-full bg-slate-950/80 backdrop-blur-md shadow-sm z-50">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="index.html" class="flex items-center space-x-2">
                 <img src="Clerk_logo2.png" alt="Logo" class="h-8 w-8 object-contain" />
@@ -112,10 +113,10 @@
                 <a href="index.html" class="nav-link font-medium">Home</a>
                 <a href="index.html#about" class="nav-link font-medium">About</a>
                 <a href="index.html#skills" class="nav-link font-medium">Skills</a>
-                <a href="projects.html" class="nav-link font-medium text-blue-500">Projects</a>
+                <a href="projects.html" class="nav-link font-medium text-blue-400">Projects</a>
                 <a href="index.html#contact" class="nav-link font-medium">Contact</a>
             </div>
-            <button class="md:hidden text-gray-600">
+            <button class="md:hidden text-slate-400">
                 <i class="fas fa-bars text-2xl"></i>
             </button>
         </div>
@@ -127,11 +128,11 @@
             <h1 class="text-4xl md:text-6xl font-bold mb-6">
                 My <span class="gradient-text">Projects</span>
             </h1>
-            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p class="text-xl text-slate-400 mb-8 max-w-2xl mx-auto">
                 Here's a collection of my recent work. Each project represents a unique challenge and solution.
             </p>
             <div class="flex justify-center">
-                <a href="index.html" class="px-8 py-3 border-2 border-blue-500 text-blue-500 font-medium rounded-full hover:bg-blue-50 transition-all">
+                <a href="index.html" class="px-8 py-3 border-2 border-blue-500 text-blue-400 font-medium rounded-full hover:bg-blue-500/10 transition-all">
                     <i class="fas fa-arrow-left mr-2"></i> Back to Home
                 </a>
             </div>
@@ -139,24 +140,24 @@
     </section>
 
     <!-- Projects Filter -->
-    <section class="py-12 bg-white">
+    <section class="py-12 bg-slate-950">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-8">
                 <h3 class="text-xl font-semibold mb-4">Filter by Technology</h3>
                 <div class="flex flex-wrap justify-center gap-3">
-                    <button class="project-filter px-4 py-2 bg-gray-100 text-gray-700 font-medium rounded-full hover:shadow transition-all active">
+                    <button class="project-filter px-4 py-2 bg-slate-800 text-slate-200 font-medium rounded-full hover:shadow transition-all active">
                         All Projects
                     </button>
-                    <button class="project-filter px-4 py-2 bg-gray-100 text-gray-700 font-medium rounded-full hover:shadow transition-all">
+                    <button class="project-filter px-4 py-2 bg-slate-800 text-slate-200 font-medium rounded-full hover:shadow transition-all">
                         HTML/CSS
                     </button>
-                    <button class="project-filter px-4 py-2 bg-gray-100 text-gray-700 font-medium rounded-full hover:shadow transition-all">
+                    <button class="project-filter px-4 py-2 bg-slate-800 text-slate-200 font-medium rounded-full hover:shadow transition-all">
                         JavaScript
                     </button>
-                    <button class="project-filter px-4 py-2 bg-gray-100 text-gray-700 font-medium rounded-full hover:shadow transition-all">
+                    <button class="project-filter px-4 py-2 bg-slate-800 text-slate-200 font-medium rounded-full hover:shadow transition-all">
                         PHP/MySQL
                     </button>
-                    <button class="project-filter px-4 py-2 bg-gray-100 text-gray-700 font-medium rounded-full hover:shadow transition-all">
+                    <button class="project-filter px-4 py-2 bg-slate-800 text-slate-200 font-medium rounded-full hover:shadow transition-all">
                         C/C++
                     </button>
                 </div>
@@ -165,25 +166,25 @@
     </section>
 
     <!-- All Projects Grid -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-slate-900">
         <div class="max-w-6xl mx-auto px-6">
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Education System Project -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center">
                         <i class="fas fa-graduation-cap text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Education System</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A comprehensive education management system designed to streamline student enrollment, course management, grading, and communication.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
-                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">PHP</span>
-                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">MySQL</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-medium rounded-full">PHP</span>
+                            <span class="px-3 py-1 bg-green-500/20 text-green-300 text-xs font-medium rounded-full">MySQL</span>
                         </div>
                         <a href="http://localhost/siga_system" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -192,19 +193,19 @@
                 </div>
 
                 <!-- BMI Calculator Project -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
                         <i class="fas fa-calculator text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">BMI Calculator</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A responsive BMI calculator web application that allows users to calculate their Body Mass Index with real-time calculations.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
                         </div>
                         <a href="https://whisperpete.github.io/BMI-calc/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             Live Demo <i class="fas fa-external-link-alt ml-2"></i>
@@ -213,19 +214,19 @@
                 </div>
 
                 <!-- Age Calculator Project -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-purple-400 to-pink-500 flex items-center justify-center">
                         <i class="fas fa-birthday-cake text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Age Calculator</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             An intuitive age calculator web application that calculates current age in years, months, and days with a clean, responsive design.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
                         </div>
                         <a href="https://whisperpete.github.io/chronocount-your-time-teller/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             Live Demo <i class="fas fa-external-link-alt ml-2"></i>
@@ -234,20 +235,20 @@
                 </div>
 
                 <!-- Additional Project 4: Portfolio Website -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-orange-400 to-red-500 flex items-center justify-center">
                         <i class="fas fa-laptop-code text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Portfolio Website</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A fully responsive personal portfolio website showcasing skills, projects, and contact information with modern design.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
-                            <span class="px-3 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded-full">Tailwind CSS</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-slate-700 text-slate-100 text-xs font-medium rounded-full">Tailwind CSS</span>
                         </div>
                         <a href="index.html" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Project <i class="fas fa-arrow-right ml-2"></i>
@@ -256,20 +257,20 @@
                 </div>
 
                 <!-- Additional Project 5: Currency Converter -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-teal-400 to-cyan-500 flex items-center justify-center">
                         <i class="fas fa-money-bill-wave text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Currency Converter</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A real-time currency converter application that supports multiple currencies with live exchange rates and instant conversion calculations.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
-                            <span class="px-3 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full">API</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-red-500/20 text-red-300 text-xs font-medium rounded-full">API</span>
                         </div>
                         <a href="https://whisperpete.github.io/currency-converter/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -278,19 +279,19 @@
                 </div>
 
                 <!-- Additional Project 6: CGPA Calculator -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-teal-400 to-cyan-500 flex items-center justify-center">
                         <i class="fas fa-calculator text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">CGPA Calculator</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             An easy-to-use CGPA calculator that helps students track their cumulative grade point average across semesters with instant calculations.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
                         </div>
                         <a href="https://whisperpete.github.io/cgpa-calculator/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -299,20 +300,20 @@
                 </div>
 
                 <!-- Additional Project 7: Weather Dashboard -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center justify-center">
                         <i class="fas fa-cloud-sun text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Weather Dashboard</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A weather application that displays current conditions and forecasts for multiple cities using weather API integration.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
-                            <span  class="px-3 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full">API</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
+                            <span  class="px-3 py-1 bg-red-500/20 text-red-300 text-xs font-medium rounded-full">API</span>
                         </div>
                         <a href="https://whisperpete.github.io/weather-helper/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -321,19 +322,19 @@
                 </div>
 
                 <!-- Additional Project 8: Tic Tac Toe Game -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-purple-400 to-indigo-500 flex items-center justify-center">
                         <i class="fas fa-gamepad text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Tic Tac Toe Game</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A classic Tic Tac Toe game implemented with HTML, CSS, and JavaScript featuring an interactive graphical user interface.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
                         </div>
                         <a href="https://whisperpete.github.io/tic-tac-toe-game/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -342,19 +343,19 @@
                 </div>
                 
                 <!-- Additional Project 9: E-commerce Website -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-pink-400 to-rose-500 flex items-center justify-center">
                         <i class="fas fa-shopping-cart text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">E-commerce Website</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A complete online store with product listings, shopping cart functionality, user authentication, and checkout process.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">PHP</span>
-                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">MySQL</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">Bootstrap</span>
+                            <span class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-medium rounded-full">PHP</span>
+                            <span class="px-3 py-1 bg-green-500/20 text-green-300 text-xs font-medium rounded-full">MySQL</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">Bootstrap</span>
                         </div>
                         <a href="edits/soon.html" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -363,19 +364,19 @@
                 </div>
 
                 <!-- Additional Project 10: Blog Platform -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-indigo-400 to-violet-500 flex items-center justify-center">
                         <i class="fas fa-blog text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Blog Platform</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A content management system for publishing articles with features like categories, tags, comments, and user management.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded-full">PHP</span>
-                            <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-medium rounded-full">MySQL</span>
-                            <span class="px-3 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded-full">Admin Panel</span>
+                            <span class="px-3 py-1 bg-purple-500/20 text-purple-300 text-xs font-medium rounded-full">PHP</span>
+                            <span class="px-3 py-1 bg-green-500/20 text-green-300 text-xs font-medium rounded-full">MySQL</span>
+                            <span class="px-3 py-1 bg-slate-700 text-slate-100 text-xs font-medium rounded-full">Admin Panel</span>
                         </div>
                         <a href="edits/soon.html" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -384,19 +385,19 @@
                 </div>
 
                 <!-- Additional Project 11: C++ Game -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-amber-400 to-orange-500 flex items-center justify-center">
                         <i class="fas fa-gamepad text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Console-Based Game</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A text-based adventure game built with C++ featuring character creation, inventory system, and multiple story paths.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">C++</span>
-                            <span class="px-3 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded-full">Object-Oriented</span>
-                            <span class="px-3 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full">Game Logic</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">C++</span>
+                            <span class="px-3 py-1 bg-slate-700 text-slate-100 text-xs font-medium rounded-full">Object-Oriented</span>
+                            <span class="px-3 py-1 bg-red-500/20 text-red-300 text-xs font-medium rounded-full">Game Logic</span>
                         </div>
                         <a href="edits/soon.html" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -405,19 +406,19 @@
                 </div>
 
                 <!-- Additional Project 12: Rock Paper Scissors -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-purple-400 to-indigo-500 flex items-center justify-center">
                         <i class="fas fa-gamepad text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Rock Paper Scissors Game</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A classic Rock Paper Scissors game implemented with HTML, CSS, and JavaScript featuring an interactive graphical user interface.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
                         </div>
                         <a href="https://whisperpete.github.io/rock-paper-scissors-game/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -425,19 +426,19 @@
                     </div>
                 </div>
                 <!-- Additional Project 13: Snake Game -->
-                <div class="bg-white rounded-xl overflow-hidden shadow-md card-hover">
+                <div class="bg-slate-800 rounded-xl overflow-hidden shadow-md card-hover border border-slate-700/60">
                     <div class="h-48 bg-gradient-to-r from-green-400 to-teal-500 flex items-center justify-center">
                         <i class="fas fa-snake text-6xl text-white opacity-80"></i>
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold mb-2">Snake Game</h3>
-                        <p class="text-gray-600 mb-4">
+                        <p class="text-slate-400 mb-4">
                             A classic Snake game implemented with HTML, CSS, and JavaScript featuring an interactive graphical user interface.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-orange-100 text-orange-800 text-xs font-medium rounded-full">HTML</span>
-                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded-full">CSS</span>
-                            <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-medium rounded-full">JavaScript</span>
+                            <span class="px-3 py-1 bg-orange-500/20 text-orange-300 text-xs font-medium rounded-full">HTML</span>
+                            <span class="px-3 py-1 bg-blue-500/20 text-blue-300 text-xs font-medium rounded-full">CSS</span>
+                            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 text-xs font-medium rounded-full">JavaScript</span>
                         </div>
                         <a href="https://whisperpete.github.io/snake-game-js/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-400 to-teal-500 text-white font-medium rounded-lg hover:shadow-lg transition-all">
                             View Details <i class="fas fa-arrow-right ml-2"></i>
@@ -464,7 +465,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
+    <footer class="bg-black text-white py-12">
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-6 md:mb-0 flex items-center space-x-3">
@@ -548,7 +549,7 @@
         
         // Project filter functionality
         const filterButtons = document.querySelectorAll('.project-filter');
-        const projectCards = document.querySelectorAll('.bg-white.rounded-xl');
+        const projectCards = document.querySelectorAll('.bg-slate-800.rounded-xl');
         
         filterButtons.forEach(button => {
             button.addEventListener('click', () => {
@@ -584,7 +585,4 @@
         });
     </script>
 </body>
-
 </html>
-
-
